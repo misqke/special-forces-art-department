@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import styles from "../../styles/Header.module.scss";
@@ -6,12 +6,23 @@ import { useRouter } from "next/router";
 
 const Header = () => {
   const router = useRouter();
+  const [open, setOpen] = useState(false);
 
   return (
     <div className={styles.container}>
-      <div className={styles.wrapper}>
+      <div className={!open ? styles.wrapper : styles.open}>
         <div className={styles.inner_container}>
-          <Link href={"/"}>Special Forces Art Department</Link>
+          <Link href={"/"}>
+            <span className={styles.title}>Special Forces Art Department</span>
+          </Link>
+          <div
+            className={styles.toggle_btn}
+            onClick={() => setOpen((prev) => !prev)}
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
         </div>
         {router.asPath !== "/" && (
           <div className={styles.logo}>
@@ -20,9 +31,12 @@ const Header = () => {
         )}
         <div className={styles.nav}>
           <Link href={"/services"}>Services</Link>
-          <Link href={"/contact"}>Contact</Link>
-          <Link href={"/services"}>About</Link>
+          <a href={"#contact"}>Contact</a>
+          <Link href={"/about"}>About</Link>
           <Link href={"/portfolio"}>Portfolio</Link>
+          <a href="mailto: mail@SpecialForcesAD.com?subject=Quote Request">
+            Request a Quote
+          </a>
         </div>
       </div>
     </div>

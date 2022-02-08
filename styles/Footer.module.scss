@@ -26,6 +26,10 @@
 .links {
   @include flexContainer(column);
   align-items: flex-start;
+  h4 {
+    margin: 5px 0;
+    color: $orange;
+  }
 }
 
 .links > * {
@@ -35,4 +39,32 @@
 
 .links > *:hover {
   color: $green;
+}
+
+@media screen and (max-width: 800px) {
+  .wrapper {
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .wrapper {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .contact,
+  .links {
+    width: 50%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .contact,
+  .links {
+    width: 90%;
+  }
 }

@@ -14,3 +14,13 @@
     font-size: 1.2rem;
   }
 }
+
+.link {
+  color: $orange;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.link:hover {
+  color: $green;
+}

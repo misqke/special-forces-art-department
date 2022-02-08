@@ -17,13 +17,13 @@ const services = () => {
           </p>
         </div>
         <div className={styles.img}>
-          <Image src={"/logobadbunny.jpg"} width={301} height={301} />
+          <Image src={"/logobadbunny.jpg"} width={400} height={400} />
         </div>
       </div>
 
       <div className={styles.wrapper}>
         <div className={styles.img}>
-          <Image src={"/pageskill.jpg"} width={301} height={301} />
+          <Image src={"/pageskill.jpg"} width={400} height={400} />
         </div>
         <div className={styles.content}>
           <h3>PRINTED ADVERTISEMENTS</h3>
@@ -46,13 +46,13 @@ const services = () => {
           </p>
         </div>
         <div className={styles.img}>
-          <Image src={"/brohaus.jpg"} width={301} height={301} />
+          <Image src={"/brohaus.jpg"} width={400} height={400} />
         </div>
       </div>
 
       <div className={styles.wrapper}>
         <div className={styles.img}>
-          <Image src={"/signsmoothies.jpg"} width={301} height={301} />
+          <Image src={"/signsmoothies.jpg"} width={400} height={400} />
         </div>
         <div className={styles.content}>
           <h3>SIGNS / PRESENTATIONS</h3>
@@ -75,13 +75,13 @@ const services = () => {
           </p>
         </div>
         <div className={styles.img}>
-          <Image src={"/webbrain.jpg"} width={301} height={301} />
+          <Image src={"/webbrain.jpg"} width={400} height={400} />
         </div>
       </div>
 
       <div className={styles.wrapper}>
         <div className={styles.img}>
-          <Image src={"/bookwillie.jpg"} width={301} height={301} />
+          <Image src={"/bookwillie.jpg"} width={400} height={400} />
         </div>
         <div className={styles.content}>
           <h3>CHILDREN'S BOOKS</h3>
@@ -101,13 +101,13 @@ const services = () => {
           </p>
         </div>
         <div className={styles.img}>
-          <Image src={"/packagetana.jpg"} width={301} height={301} />
+          <Image src={"/packagetana.jpg"} width={400} height={400} />
         </div>
       </div>
 
       <div className={styles.wrapper}>
         <div className={styles.img}>
-          <Image src={"/illcemetary.jpg"} width={301} height={301} />
+          <Image src={"/illcemetary.jpg"} width={400} height={400} />
         </div>
         <div className={styles.content}>
           <h3>CUSTOM ARTWORK</h3>

@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className={styles.container}>
       <div className={styles.wrapper}>
-        <div className={styles.contact}>
+        <div className={styles.contact} id="contact">
           <h4>Contact info</h4>
           <p>Todd Siatkowsky - Owner, Graphic Designer</p>
           <p>
@@ -23,10 +23,12 @@ const Footer = () => {
           </p>
         </div>
         <div className={styles.links}>
+          <h4>Links</h4>
           <Link href={"/terms"}>Terms of Service</Link>
           <Link href={"/privacy"}>Privacy Policy</Link>
           <Link href={"/why"}>Why use a graphic designer?</Link>
           <Link href={"/aboutgd"}>About graphic design</Link>
+          <Link href={"/ordering"}>Ordering Services</Link>
         </div>
       </div>
     </div>

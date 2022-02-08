@@ -8,7 +8,9 @@ export default function Home() {
         <div className={styles.content}>
           <Image src={"/logo.png"} width={313} height={296} />
           <button className={styles.quote_btn} type="button">
-            Request a Quote
+            <a href="mailto: mail@SpecialForcesAD.com?subject=Quote Request">
+              Request a Quote
+            </a>
           </button>
         </div>
         <div className={styles.content}>
