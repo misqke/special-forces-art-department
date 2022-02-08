@@ -1,0 +1,46 @@
+.container {
+  @include flexContainer(row);
+  width: 100vw;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  background-color: $black;
+  z-index: 900;
+}
+
+.wrapper {
+  @include flexContainer(row);
+  padding: 0 1rem;
+  width: 90%;
+  height: 100%;
+  border-bottom: 2px solid $green;
+  justify-content: space-between;
+}
+
+.inner_container {
+  @include flexContainer(row);
+  font-size: 1.5rem;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.nav {
+  @include flexContainer(row);
+  gap: 1rem;
+}
+
+.nav > * {
+  transition-duration: 0.4s;
+}
+
+.nav > *:hover {
+  color: $green;
+}

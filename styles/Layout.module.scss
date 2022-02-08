@@ -1,0 +1,7 @@
+.body {
+  @include flexContainer(column);
+  width: 100vw;
+  min-height: 100vh;
+  background-color: $black;
+  color: $white;
+}

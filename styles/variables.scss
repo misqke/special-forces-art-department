@@ -1,0 +1,11 @@
+$black: #000;
+$green: #0f0;
+$white: #ccc;
+$orange: #f90;
+
+@mixin flexContainer($direction) {
+  display: flex;
+  flex-direction: $direction;
+  align-items: center;
+  justify-content: center;
+}

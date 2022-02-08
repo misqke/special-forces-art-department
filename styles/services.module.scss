@@ -1,0 +1,40 @@
+.container {
+  @include flexContainer(column);
+  width: 100%;
+  margin-top: 80px;
+  h1 {
+    font-size: 2.5rem;
+    color: $green;
+    margin-bottom: 0;
+  }
+}
+
+.wrapper {
+  @include flexContainer(row);
+  justify-content: space-between;
+  width: 80%;
+  height: calc(100vh - 150px);
+  padding: 1rem;
+}
+
+.content {
+  @include flexContainer(column);
+  justify-content: center;
+  align-items: flex-start;
+  width: 55%;
+  height: 100%;
+  padding: 1rem 0;
+  h3 {
+    color: $orange;
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+}
+
+.img {
+  @include flexContainer(row);
+  width: 40%;
+  height: 100%;
+}

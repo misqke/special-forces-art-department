@@ -1,0 +1,38 @@
+.container {
+  @include flexContainer(row);
+  width: 100%;
+}
+
+.wrapper {
+  @include flexContainer(row);
+  width: 90%;
+  border-top: 2px solid $green;
+  justify-content: space-evenly;
+  padding: 1rem;
+}
+
+.contact {
+  @include flexContainer(column);
+  align-items: flex-start;
+  h4 {
+    margin: 5px 0;
+    color: $orange;
+  }
+  p {
+    margin: 3px 0;
+  }
+}
+
+.links {
+  @include flexContainer(column);
+  align-items: flex-start;
+}
+
+.links > * {
+  transition-duration: 0.4s;
+  margin: 3px 0;
+}
+
+.links > *:hover {
+  color: $green;
+}
