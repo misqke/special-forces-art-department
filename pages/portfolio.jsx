@@ -27,7 +27,12 @@ const portfolio = () => {
       <div className={styles.wrapper}>
         {images.map((img, i) => (
           <div className={styles.img_container} key={i}>
-            <Image src={`/${img}`} width={400} height={400} />
+            <Image
+              src={`/${img}`}
+              width={400}
+              height={400}
+              alt={img.slice(0, img.length - 4)}
+            />
           </div>
         ))}
       </div>

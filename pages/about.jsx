@@ -7,7 +7,7 @@ const about = () => {
     <div className={styles.container}>
       <h1 className={styles.title}>ABOUT</h1>
       <p>
-        Hi there! I'm Todd Siatkowsky, a Freelance Graphic Designer and
+        Hi there! I&apos;m Todd Siatkowsky, a Freelance Graphic Designer and
         Illustrator from Baden Pennsylvania. I have a Bachelor of Science Degree
         in Graphic Design and I have worked professionally as a Graphic Designer
         creating custom, made to order vector logos, brochures, shirts and much

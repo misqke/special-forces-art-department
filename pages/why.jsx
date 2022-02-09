@@ -8,11 +8,11 @@ const why = () => {
       <p>
         Graphic Designers actually create a wide variety of designs like, vector
         logos, custom made brochures, graphic clothing, signs and a great deal
-        more, but we don't just create them, we create them in a way that is
-        vivid and memorable to viewers (in other words, "graphic"). More than
-        that, creating custom designs is a complex combination of advertising
-        principles, psychology and art used to communicate to large masses of
-        people or perhaps tailored for a more specific audience.
+        more, but we don&apos;t just create them, we create them in a way that
+        is vivid and memorable to viewers (in other words, &quot;graphic&quot;).
+        More than that, creating custom designs is a complex combination of
+        advertising principles, psychology and art used to communicate to large
+        masses of people or perhaps tailored for a more specific audience.
       </p>
       <p>
         When you have a design created for your business or advertising there
@@ -54,12 +54,12 @@ const why = () => {
         tailored to either a broad or specific range of people depending on what
         the client requires. The target audience could be an age group (created
         to be young and wild verses mature and refined designs). The gender of a
-        person could be the target (women's clothing verses men's tools).
-        Sometimes the audience is not so easy to see. It could just be a certain
-        type of person, where they live, what trends of the world attract them
-        or just their psychological mindset. A good Designer considers these
-        things and much more weather they are creating a single logo or an
-        entire advertising campaign.
+        person could be the target (women&apos;s clothing verses men&apos;s
+        tools). Sometimes the audience is not so easy to see. It could just be a
+        certain type of person, where they live, what trends of the world
+        attract them or just their psychological mindset. A good Designer
+        considers these things and much more weather they are creating a single
+        logo or an entire advertising campaign.
       </p>
     </div>
   );

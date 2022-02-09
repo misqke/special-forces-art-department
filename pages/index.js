@@ -16,7 +16,7 @@ export default function Home() {
           </p>
         </div>
         <div className={styles.content}>
-          <Image src={"/logo.png"} width={313} height={296} />
+          <Image src={"/logo.png"} width={313} height={296} alt="logo" />
           <button className={styles.quote_btn} type="button">
             <a href="mailto: mail@SpecialForcesAD.com?subject=Quote Request">
               Request a Quote

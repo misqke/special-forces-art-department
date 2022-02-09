@@ -54,8 +54,8 @@ const terms = () => {
       <p>
         Full payment is due upon initial approval of your final draft proof and
         before you will receive your actual design files for use. Invoices not
-        paid in full within 15 days of your project's initial approval will be
-        charged a 1.5% per month interest charge. Further adjustments to your
+        paid in full within 15 days of your project&apos;s initial approval will
+        be charged a 1.5% per month interest charge. Further adjustments to your
         project after approval do not extend your payment due date in any way.
         If payment is ever past due then you may be required to make
         pre-payments on all future orders and you will forfeit any special
@@ -79,7 +79,7 @@ const terms = () => {
         This is a place to request the services of a professional Graphic
         Designer online. You will receive your artwork as digital files that
         meet or exceed printing industry standards. If multiple files are
-        required we will need to get your printing company's specifications
+        required we will need to get your printing company&apos;s specifications
         before we begin. If you change printing companies or the printing
         specifications change then there may be additional charges to reformat
         your files. This is not a printing company and no printed reproductions

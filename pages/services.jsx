@@ -17,13 +17,23 @@ const services = () => {
           </p>
         </div>
         <div className={styles.img}>
-          <Image src={"/logobadbunny.jpg"} width={400} height={400} />
+          <Image
+            src={"/logobadbunny.jpg"}
+            width={400}
+            height={400}
+            alt="logo"
+          />
         </div>
       </div>
 
       <div className={styles.wrapper}>
         <div className={styles.img}>
-          <Image src={"/pageskill.jpg"} width={400} height={400} />
+          <Image
+            src={"/pageskill.jpg"}
+            width={400}
+            height={400}
+            alt="printed advertisement"
+          />
         </div>
         <div className={styles.content}>
           <h3>PRINTED ADVERTISEMENTS</h3>
@@ -41,18 +51,23 @@ const services = () => {
           <p>
             Capabilities brochures, product brochures, newsletters, menus,
             calenders, instructional booklets, manuals, programs, book covers,
-            children's books or any project requiring unity among multiple pages
-            or panels.
+            children&apos;s books or any project requiring unity among multiple
+            pages or panels.
           </p>
         </div>
         <div className={styles.img}>
-          <Image src={"/brohaus.jpg"} width={400} height={400} />
+          <Image src={"/brohaus.jpg"} width={400} height={400} alt="book" />
         </div>
       </div>
 
       <div className={styles.wrapper}>
         <div className={styles.img}>
-          <Image src={"/signsmoothies.jpg"} width={400} height={400} />
+          <Image
+            src={"/signsmoothies.jpg"}
+            width={400}
+            height={400}
+            alt="sign"
+          />
         </div>
         <div className={styles.content}>
           <h3>SIGNS / PRESENTATIONS</h3>
@@ -75,16 +90,26 @@ const services = () => {
           </p>
         </div>
         <div className={styles.img}>
-          <Image src={"/webbrain.jpg"} width={400} height={400} />
+          <Image
+            src={"/webbrain.jpg"}
+            width={400}
+            height={400}
+            alt="illustration"
+          />
         </div>
       </div>
 
       <div className={styles.wrapper}>
         <div className={styles.img}>
-          <Image src={"/bookwillie.jpg"} width={400} height={400} />
+          <Image
+            src={"/bookwillie.jpg"}
+            width={400}
+            height={400}
+            alt="childrens book"
+          />
         </div>
         <div className={styles.content}>
-          <h3>CHILDREN'S BOOKS</h3>
+          <h3>CHILDREN&apos;S BOOKS</h3>
           <p>
             Illustrations only, illustrations and page decoration or complete
             book development including cover and page designs.
@@ -101,13 +126,23 @@ const services = () => {
           </p>
         </div>
         <div className={styles.img}>
-          <Image src={"/packagetana.jpg"} width={400} height={400} />
+          <Image
+            src={"/packagetana.jpg"}
+            width={400}
+            height={400}
+            alt="diagram"
+          />
         </div>
       </div>
 
       <div className={styles.wrapper}>
         <div className={styles.img}>
-          <Image src={"/illcemetary.jpg"} width={400} height={400} />
+          <Image
+            src={"/illcemetary.jpg"}
+            width={400}
+            height={400}
+            alt="artwork"
+          />
         </div>
         <div className={styles.content}>
           <h3>CUSTOM ARTWORK</h3>

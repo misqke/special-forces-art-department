@@ -5,7 +5,7 @@ import Image from "next/image";
 const resume = () => {
   return (
     <div className={styles.container}>
-      <Image src={"/resume.jpg"} width={613} height={793} />
+      <Image src={"/resume.jpg"} width={613} height={793} alt="resume" />
     </div>
   );
 };

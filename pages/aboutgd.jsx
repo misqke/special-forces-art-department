@@ -11,8 +11,8 @@ const aboutgd = () => {
         its intended audience. The audience has to feel they are being spoken to
         by a member of their group if the advertisement is to stick with them
         and be memorable. The type fonts chosen for the project have to be fonts
-        that belong in the viewer's world or they will just be dismissed. The
-        size, placement and density of words in a layout create a visual
+        that belong in the viewer&apos;s world or they will just be dismissed.
+        The size, placement and density of words in a layout create a visual
         hierarchy that leads the eye around the layout with little effort from
         the viewer.
       </p>
@@ -24,7 +24,7 @@ const aboutgd = () => {
         organizes the elements of the composition visually. This normally occurs
         subconsciously when you first look at a logo, sign or any well built
         design. It only takes a few seconds but it can be the most important
-        factor in making a layout stick in a viewer's mind. It is also what
+        factor in making a layout stick in a viewer&apos;s mind. It is also what
         makes a viewer recognize a logo when they see it again (very important
         for company branding). The first few seconds of looking at a sign is
         sometimes all the time a Designer has to attract a viewer or get the
@@ -32,18 +32,19 @@ const aboutgd = () => {
       </p>
       <p>
         Relating to a target audience and keeping your company identity in their
-        minds is tricky work. This is where the "Graphic" comes from in "Graphic
-        Designer". A truly "Graphic" Designer will consider these and many more
-        factors. Aside from the size, placement and hierarchy of elements in a
-        layout, there are countless rules and factors to keep in mind. The
-        timing and rhythm of elements in a created composition are as important
-        as they are in a great song. And just like a song that has been composed
-        properly, a properly created visual communication will stay in the mind
-        of the audience. A good Designer knows all the rules of art. And when
-        you know all the rules of something, you can then and ONLY THEN, know
-        when to bend and break those rules in a way that is productive to the
-        project. Good Designers can do this in a way that feels effortless and
-        natural. Bad Designers don't even consider these important aspects.
+        minds is tricky work. This is where the &quot;Graphic&quot; comes from
+        in &quot;Graphic Designer&quot;. A truly &quot;Graphic&quot; Designer
+        will consider these and many more factors. Aside from the size,
+        placement and hierarchy of elements in a layout, there are countless
+        rules and factors to keep in mind. The timing and rhythm of elements in
+        a created composition are as important as they are in a great song. And
+        just like a song that has been composed properly, a properly created
+        visual communication will stay in the mind of the audience. A good
+        Designer knows all the rules of art. And when you know all the rules of
+        something, you can then and ONLY THEN, know when to bend and break those
+        rules in a way that is productive to the project. Good Designers can do
+        this in a way that feels effortless and natural. Bad Designers
+        don&apos;t even consider these important aspects.
       </p>
     </div>
   );

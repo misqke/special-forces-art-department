@@ -2,10 +2,8 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import styles from "../../styles/Header.module.scss";
-import { useRouter } from "next/router";
 
 const Header = () => {
-  const router = useRouter();
   const [open, setOpen] = useState(false);
 
   return (
@@ -14,14 +12,18 @@ const Header = () => {
         className={!open ? styles.wrapper : `${styles.wrapper} ${styles.open}`}
       >
         <div className={styles.inner_container}>
-          {/* {router.asPath !== "/" && ( */}
-          <Link href={"/"}>
+          <Link href={"/"} passHref>
             <div className={styles.logo}>
-              <Image src={"/logo.png"} width={313} height={296}></Image>
+              <Image
+                src={"/logo.png"}
+                width={313}
+                height={296}
+                alt="logo"
+              ></Image>
             </div>
           </Link>
-          {/* )} */}
-          <Link href={"/"}>
+
+          <Link href={"/"} passHref>
             <span className={styles.title}>Special Forces Art Department</span>
           </Link>
           <div

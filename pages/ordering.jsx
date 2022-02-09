@@ -43,13 +43,13 @@ const ordering = () => {
       <p>
         Every custom made illustration project is also constructed to produce
         the highest print quality possible. All illustrations are made to order
-        as fully or mostly vector artwork depending on your project's specific
-        requirements. Vector artwork is basically any art that is created using
-        a computer program rather than photographed or scanned into a computer.
-        Vector art will print at the highest possible image quality and it has a
-        number of other advantages that make it a superior format for
-        illustrations and designs. It is also the format that printing companies
-        love and usually require.
+        as fully or mostly vector artwork depending on your project&apos;s
+        specific requirements. Vector artwork is basically any art that is
+        created using a computer program rather than photographed or scanned
+        into a computer. Vector art will print at the highest possible image
+        quality and it has a number of other advantages that make it a superior
+        format for illustrations and designs. It is also the format that
+        printing companies love and usually require.
       </p>
       <p>
         Every project you order here is custom developed through a process of

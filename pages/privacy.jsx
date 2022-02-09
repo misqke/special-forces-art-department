@@ -26,19 +26,20 @@ const privacy = () => {
       <p>
         Like many site operators, I collect information that your browser sends
         whenever you visit my Site. This Log Data may include information such
-        as your computer's Internet Protocol ("IP") address, browser type,
-        browser version, the pages of our Site that you visit, the time and date
-        of your visit, the time spent on those pages and other statistics.
+        as your computer&apos;s Internet Protocol (&quot;IP&quot;) address,
+        browser type, browser version, the pages of our Site that you visit, the
+        time and date of your visit, the time spent on those pages and other
+        statistics.
       </p>
       <h3>Cookies</h3>
       <p>
         Cookies are files with small amount of data, which may include an
         anonymous unique identifier. Cookies are sent to your browser from a web
-        site and stored on your computer's hard drive. Like many sites, I use
-        "cookies" to collect information. You can instruct your browser to
-        refuse all cookies or to indicate when a cookie is being sent. However,
-        if you do not accept cookies, you may not be able to use some portions
-        of my Site.
+        site and stored on your computer&apos;s hard drive. Like many sites, I
+        use &quot;cookies&quot; to collect information. You can instruct your
+        browser to refuse all cookies or to indicate when a cookie is being
+        sent. However, if you do not accept cookies, you may not be able to use
+        some portions of my Site.
       </p>
       <h3>Security</h3>
       <p>
