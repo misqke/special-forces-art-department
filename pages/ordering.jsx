@@ -4,7 +4,7 @@ import styles from "../styles/terms.module.scss";
 const ordering = () => {
   return (
     <div className={styles.container}>
-      <h1>ORDERING SERVICES</h1>
+      <h1 className={styles.title}>ORDERING SERVICES</h1>
       <p>
         My professional services as a Graphic Designer are here for individuals
         and companies seeking custom made artwork that shows real creative

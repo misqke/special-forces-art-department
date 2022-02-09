@@ -1,11 +1,9 @@
 .container {
   @include flexContainer(column);
   align-items: flex-start;
-  margin-top: 80px;
+  margin-top: 100px;
   width: 70%;
-  h1 {
-    color: $green;
-  }
+  padding-bottom: 1rem;
   h3 {
     color: $orange;
     margin-bottom: 0.5rem;
@@ -13,6 +11,10 @@
   p {
     font-size: 1.2rem;
   }
+}
+
+.title {
+  @include title();
 }
 
 .link {
@@ -23,4 +25,16 @@
 
 .link:hover {
   color: $green;
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 85%;
+  }
 }

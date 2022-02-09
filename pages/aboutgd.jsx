@@ -4,7 +4,7 @@ import styles from "../styles/terms.module.scss";
 const aboutgd = () => {
   return (
     <div className={styles.container}>
-      <h1>ABOUT GRAPHIC DESIGN</h1>
+      <h1 className={styles.title}>ABOUT GRAPHIC DESIGN</h1>
       <p>
         Advertising is not just about saying something, it is about HOW you say
         something. The way it is written is a key factor in relating a layout to

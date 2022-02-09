@@ -5,7 +5,7 @@ import styles from "../styles/terms.module.scss";
 const about = () => {
   return (
     <div className={styles.container}>
-      <h1>ABOUT</h1>
+      <h1 className={styles.title}>ABOUT</h1>
       <p>
         Hi there! I'm Todd Siatkowsky, a Freelance Graphic Designer and
         Illustrator from Baden Pennsylvania. I have a Bachelor of Science Degree

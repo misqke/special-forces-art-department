@@ -4,7 +4,7 @@ import styles from "../styles/terms.module.scss";
 const terms = () => {
   return (
     <div className={styles.container}>
-      <h1>TERMS OF SERVICE</h1>
+      <h1 className={styles.title}>TERMS OF SERVICE</h1>
       <p>
         These Terms of Service were last modified on 1-1-2021. By accepting a
         quote, proceeding with a project or entering into business of any kind

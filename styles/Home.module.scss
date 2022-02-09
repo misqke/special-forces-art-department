@@ -1,6 +1,6 @@
 .container {
   @include flexContainer(row);
-  margin-top: 80px;
+  margin-top: 100px;
   height: calc(100vh - 80px);
   width: 100%;
   background: url(/banner.jpg) no-repeat;
@@ -29,11 +29,11 @@
 }
 
 .content:first-child {
-  width: 40%;
-  padding-bottom: 3rem;
+  width: 55%;
 }
 .content:last-child {
-  width: 55%;
+  width: 40%;
+  padding-bottom: 3rem;
 }
 
 .quote_btn {
@@ -73,16 +73,16 @@
     height: auto;
   }
   .wrapper {
-    flex-direction: column;
+    flex-direction: column-reverse;
     margin: 2rem auto;
   }
   .content:first-child {
     width: 100%;
-    padding-bottom: 1rem;
-    gap: 1rem;
   }
   .content:last-child {
     width: 100%;
+    padding-bottom: 1rem;
+    gap: 1rem;
   }
 }
 

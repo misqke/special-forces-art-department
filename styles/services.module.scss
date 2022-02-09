@@ -1,34 +1,36 @@
 .container {
   @include flexContainer(column);
   width: 100%;
-  margin-top: 80px;
-  h1 {
-    align-self: flex-start;
-    font-size: 2.5rem;
-    color: $green;
-    margin-bottom: 0;
-    margin-left: 15%;
-  }
+  margin-top: 100px;
+}
+.title {
+  @include title();
 }
 
 .wrapper {
   @include flexContainer(row);
   justify-content: space-between;
-  width: 70%;
-  height: 80vh;
+  width: 80%;
+  height: 500px;
   padding: 1rem;
+}
+
+.wrapper:nth-child(even) {
+  background-color: #111;
 }
 
 .content {
   @include flexContainer(column);
   justify-content: center;
   align-items: flex-start;
-  width: 50%;
+  width: 55%;
   height: 100%;
-  padding: 1rem 0;
+  padding: 1rem;
   h3 {
     color: $orange;
     font-size: 2rem;
+    font-family: "Russo One", sans-serif;
+    letter-spacing: 1px;
   }
   p {
     font-size: 1.5rem;
@@ -37,6 +39,62 @@
 
 .img {
   @include flexContainer(row);
-  width: 45%;
+  width: 40%;
   height: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  .wrapper {
+    height: 400px;
+  }
+  .content {
+    p {
+      font-size: 1.25rem;
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .wrapper {
+    @include flexContainer(column);
+    height: auto;
+    width: 80%;
+  }
+  .wrapper:nth-child(odd) {
+    flex-direction: column-reverse;
+  }
+  .content {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    p {
+      text-align: center;
+    }
+  }
+  .img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper {
+    width: 90%;
+  }
+  .content {
+    h3 {
+      font-size: 1.35rem;
+    }
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .content {
+    h3 {
+      font-size: 1.25rem;
+    }
+    p {
+      font-size: 1rem;
+    }
+  }
 }

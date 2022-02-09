@@ -1,0 +1,41 @@
+.container {
+  @include flexContainer(column);
+  width: 100%;
+  margin-top: 100px;
+}
+
+.title {
+  @include title();
+}
+
+.wrapper {
+  @include flexContainer(row);
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 80%;
+}
+
+.img_container {
+  @include flexContainer(row);
+  justify-content: space-between;
+  width: 30%;
+  max-width: 400px;
+  min-width: 225px;
+  height: auto;
+  padding: 1rem;
+}
+
+@media screen and (max-width: 900px) {
+  .wrapper {
+    width: 90%;
+  }
+  .img_container {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .img_container {
+    width: 100%;
+  }
+}

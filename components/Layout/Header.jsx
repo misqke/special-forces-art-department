@@ -10,8 +10,17 @@ const Header = () => {
 
   return (
     <div className={styles.container}>
-      <div className={!open ? styles.wrapper : styles.open}>
+      <div
+        className={!open ? styles.wrapper : `${styles.wrapper} ${styles.open}`}
+      >
         <div className={styles.inner_container}>
+          {/* {router.asPath !== "/" && ( */}
+          <Link href={"/"}>
+            <div className={styles.logo}>
+              <Image src={"/logo.png"} width={313} height={296}></Image>
+            </div>
+          </Link>
+          {/* )} */}
           <Link href={"/"}>
             <span className={styles.title}>Special Forces Art Department</span>
           </Link>
@@ -24,16 +33,12 @@ const Header = () => {
             <span></span>
           </div>
         </div>
-        {router.asPath !== "/" && (
-          <div className={styles.logo}>
-            <Image src={"/logo.png"} width={313} height={296} />
-          </div>
-        )}
+
         <div className={styles.nav}>
           <Link href={"/services"}>Services</Link>
-          <a href={"#contact"}>Contact</a>
-          <Link href={"/about"}>About</Link>
           <Link href={"/portfolio"}>Portfolio</Link>
+          <Link href={"/about"}>About</Link>
+          <a href={"#contact"}>Contact</a>
           <a href="mailto: mail@SpecialForcesAD.com?subject=Quote Request">
             Request a Quote
           </a>

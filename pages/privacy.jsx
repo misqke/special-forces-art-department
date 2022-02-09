@@ -4,7 +4,7 @@ import styles from "../styles/terms.module.scss";
 const privacy = () => {
   return (
     <div className={styles.container}>
-      <h1>Privacy Policy</h1>
+      <h1 className={styles.title}>Privacy Policy</h1>
 
       <p>
         This Privacy Policy was last modified on 6-8-2015. Special Forces Art
