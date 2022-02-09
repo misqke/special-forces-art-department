@@ -29,6 +29,7 @@ const Footer = () => {
           <Link href={"/why"}>Why use a graphic designer?</Link>
           <Link href={"/aboutgd"}>About graphic design</Link>
           <Link href={"/ordering"}>Ordering Services</Link>
+          <Link href={"/resume"}>Resume</Link>
         </div>
       </div>
     </div>

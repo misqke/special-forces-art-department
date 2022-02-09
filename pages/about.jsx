@@ -11,7 +11,11 @@ const about = () => {
         Illustrator from Baden Pennsylvania. I have a Bachelor of Science Degree
         in Graphic Design and I have worked professionally as a Graphic Designer
         creating custom, made to order vector logos, brochures, shirts and much
-        more for over 22 years. You can view or download my resume here.
+        more for over 22 years. You can view or download my resume{" "}
+        <span className={styles.link}>
+          <Link href={"/resume"}>here</Link>
+        </span>
+        .
       </p>
       <p>
         www.GraphicDesignerPA.com is my web site where you can order custom made
