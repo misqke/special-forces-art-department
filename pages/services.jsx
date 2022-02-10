@@ -1,10 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import Image from "next/image";
 import styles from "../styles/services.module.scss";
 
-const services = () => {
-  const onScreen = useState([]);
-
+const Services = () => {
   useEffect(() => {
     const wrappers = document.querySelectorAll("section");
     console.log(wrappers);
@@ -177,4 +175,4 @@ const services = () => {
   );
 };
 
-export default services;
+export default Services;
