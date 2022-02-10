@@ -14,7 +14,7 @@ const Services = () => {
           );
         });
       },
-      { threshold: 0.25, rootMargin: "100px 0px 0px 0px" }
+      { threshold: 0.35 }
     );
 
     wrappers.forEach((wrapper) => {

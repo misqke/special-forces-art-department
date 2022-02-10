@@ -14,21 +14,35 @@
   height: calc(100vh - 100px);
   padding: 2rem;
 }
-.visible {
+
+.wrapper {
+  div {
+    transition-duration: 1.25s;
+    transition-timing-function: ease-out;
+  }
   div:first-child {
     position: relative;
-    animation-name: slide-left;
-    animation-duration: 1.35s;
+    left: -100vw;
   }
   div:last-child {
     position: relative;
-    animation-name: slide-right;
-    animation-duration: 1.35s;
+    right: -100vw;
   }
 }
 
 .wrapper:nth-child(even) {
   background-color: #111;
+}
+
+.visible {
+  div:first-child {
+    position: relative;
+    left: 0;
+  }
+  div:last-child {
+    position: relative;
+    right: 0;
+  }
 }
 
 .content {
@@ -46,24 +60,6 @@
   }
   p {
     font-size: 1.5rem;
-  }
-}
-
-@keyframes slide-left {
-  from {
-    left: -70vw;
-  }
-  to {
-    left: 0;
-  }
-}
-
-@keyframes slide-right {
-  from {
-    right: -70vw;
-  }
-  to {
-    right: 0;
   }
 }
 
