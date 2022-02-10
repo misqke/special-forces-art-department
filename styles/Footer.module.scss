@@ -22,6 +22,12 @@
     margin: 3px 0;
   }
 }
+.mail {
+  transition-duration: 0.4s;
+}
+.mail:hover {
+  color: $green;
+}
 
 .links {
   @include flexContainer(column);

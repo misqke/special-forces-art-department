@@ -10,7 +10,10 @@ const Footer = () => {
           <h4>Contact info</h4>
           <p>Todd Siatkowsky - Owner, Graphic Designer</p>
           <p>
-            <span>EMAIL:</span> mail@SpecialForcesAD.com
+            <span>EMAIL: </span>{" "}
+            <a className={styles.mail} href="mailto: mail@SpecialForcesAD.com">
+              mail@SpecialForcesAD.com
+            </a>
           </p>
           <p>
             <span>PHONE:</span> 412-499-2763

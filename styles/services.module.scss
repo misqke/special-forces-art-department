@@ -11,8 +11,20 @@
   @include flexContainer(row);
   justify-content: space-between;
   width: 80%;
-  height: 500px;
-  padding: 1rem;
+  height: calc(100vh - 100px);
+  padding: 2rem;
+}
+.visible {
+  div:first-child {
+    position: relative;
+    animation-name: slide-left;
+    animation-duration: 1.25s;
+  }
+  div:last-child {
+    position: relative;
+    animation-name: slide-right;
+    animation-duration: 1.25s;
+  }
 }
 
 .wrapper:nth-child(even) {
@@ -37,6 +49,24 @@
   }
 }
 
+@keyframes slide-left {
+  from {
+    left: -100vw;
+  }
+  to {
+    left: 0;
+  }
+}
+
+@keyframes slide-right {
+  from {
+    right: -100vw;
+  }
+  to {
+    right: 0;
+  }
+}
+
 .img {
   @include flexContainer(row);
   width: 40%;
@@ -45,7 +75,7 @@
 
 @media screen and (max-width: 1200px) {
   .wrapper {
-    height: 400px;
+    height: 500px;
   }
   .content {
     p {

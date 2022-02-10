@@ -1,13 +1,32 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import styles from "../styles/services.module.scss";
 
 const services = () => {
+  const onScreen = useState([]);
+
+  useEffect(() => {
+    const wrappers = document.querySelectorAll("section");
+    console.log(wrappers);
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        entry.target.classList.toggle(
+          `${styles.visible}`,
+          entry.isIntersecting
+        );
+      });
+    });
+
+    wrappers.forEach((wrapper) => {
+      observer.observe(wrapper);
+    });
+  }, []);
+
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>SERVICES</h1>
 
-      <div className={styles.wrapper}>
+      <section className={styles.wrapper}>
         <div className={styles.content}>
           <h3>LOGOS / IDENTITY SYSTEMS</h3>
           <p>
@@ -24,9 +43,9 @@ const services = () => {
             alt="logo"
           />
         </div>
-      </div>
+      </section>
 
-      <div className={styles.wrapper}>
+      <section className={styles.wrapper}>
         <div className={styles.img}>
           <Image
             src={"/pageskill.jpg"}
@@ -43,9 +62,9 @@ const services = () => {
             professional design for print.
           </p>
         </div>
-      </div>
+      </section>
 
-      <div className={styles.wrapper}>
+      <section className={styles.wrapper}>
         <div className={styles.content}>
           <h3>BROCHURES / BOOKLETS / BOOKS</h3>
           <p>
@@ -58,9 +77,9 @@ const services = () => {
         <div className={styles.img}>
           <Image src={"/brohaus.jpg"} width={400} height={400} alt="book" />
         </div>
-      </div>
+      </section>
 
-      <div className={styles.wrapper}>
+      <section className={styles.wrapper}>
         <div className={styles.img}>
           <Image
             src={"/signsmoothies.jpg"}
@@ -78,9 +97,9 @@ const services = () => {
             a distance.
           </p>
         </div>
-      </div>
+      </section>
 
-      <div className={styles.wrapper}>
+      <section className={styles.wrapper}>
         <div className={styles.content}>
           <h3>AD ILLUSTRATION</h3>
           <p>
@@ -97,9 +116,9 @@ const services = () => {
             alt="illustration"
           />
         </div>
-      </div>
+      </section>
 
-      <div className={styles.wrapper}>
+      <section className={styles.wrapper}>
         <div className={styles.img}>
           <Image
             src={"/bookwillie.jpg"}
@@ -115,9 +134,9 @@ const services = () => {
             book development including cover and page designs.
           </p>
         </div>
-      </div>
+      </section>
 
-      <div className={styles.wrapper}>
+      <section className={styles.wrapper}>
         <div className={styles.content}>
           <h3>DIAGRAMS & GRAPHICS</h3>
           <p>
@@ -133,9 +152,9 @@ const services = () => {
             alt="diagram"
           />
         </div>
-      </div>
+      </section>
 
-      <div className={styles.wrapper}>
+      <section className={styles.wrapper}>
         <div className={styles.img}>
           <Image
             src={"/illcemetary.jpg"}
@@ -153,7 +172,7 @@ const services = () => {
             challenge within my means.
           </p>
         </div>
-      </div>
+      </section>
     </div>
   );
 };

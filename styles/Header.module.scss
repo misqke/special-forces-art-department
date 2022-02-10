@@ -42,14 +42,14 @@
   display: none;
   flex-direction: column;
   justify-content: space-around;
-  width: 30px;
-  height: 30px;
-  transition-duration: 0.4s;
+  width: 35px;
+  height: 35px;
   cursor: pointer;
   span {
     width: 100%;
     height: 3px;
     background-color: $white;
+    transition-duration: 0.4s;
   }
 }
 
@@ -62,6 +62,7 @@
 .logo {
   width: 100px;
   height: 95px;
+  cursor: pointer;
 }
 
 .nav {
@@ -71,6 +72,7 @@
 
 .nav > * {
   transition-duration: 0.4s;
+  padding: 3px;
 }
 
 .nav > *:hover {
@@ -85,7 +87,6 @@
   .wrapper,
   .nav {
     @include flexContainer(column);
-    transition-duration: 0.5s;
   }
 
   .wrapper {
