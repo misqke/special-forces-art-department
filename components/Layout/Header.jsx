@@ -41,7 +41,7 @@ const Header = () => {
         </div>
 
         <div className={styles.nav} onClick={() => setOpen(false)}>
-          <Link href={"/Services"}>Services</Link>
+          <Link href={"/services"}>Services</Link>
           <Link href={"/portfolio"}>Portfolio</Link>
           <Link href={"/about"}>About</Link>
           <a href={"#contact"}>Contact</a>

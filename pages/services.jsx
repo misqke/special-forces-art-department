@@ -5,15 +5,17 @@ import styles from "../styles/services.module.scss";
 const Services = () => {
   useEffect(() => {
     const wrappers = document.querySelectorAll("section");
-    console.log(wrappers);
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        entry.target.classList.toggle(
-          `${styles.visible}`,
-          entry.isIntersecting
-        );
-      });
-    });
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          entry.target.classList.toggle(
+            `${styles.visible}`,
+            entry.isIntersecting
+          );
+        });
+      },
+      { threshold: 0.25, rootMargin: "100px 0px 0px 0px" }
+    );
 
     wrappers.forEach((wrapper) => {
       observer.observe(wrapper);

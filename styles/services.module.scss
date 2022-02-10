@@ -18,12 +18,12 @@
   div:first-child {
     position: relative;
     animation-name: slide-left;
-    animation-duration: 1.25s;
+    animation-duration: 1.35s;
   }
   div:last-child {
     position: relative;
     animation-name: slide-right;
-    animation-duration: 1.25s;
+    animation-duration: 1.35s;
   }
 }
 
@@ -51,7 +51,7 @@
 
 @keyframes slide-left {
   from {
-    left: -100vw;
+    left: -70vw;
   }
   to {
     left: 0;
@@ -60,7 +60,7 @@
 
 @keyframes slide-right {
   from {
-    right: -100vw;
+    right: -70vw;
   }
   to {
     right: 0;
