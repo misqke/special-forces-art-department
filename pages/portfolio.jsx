@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import Image from "next/image";
 import styles from "../styles/portfolio.module.scss";
 
-const portfolio = () => {
+const Portfolio = () => {
   const images = [
     "bookking.jpg",
     "bookwillie.jpg",
@@ -33,7 +33,7 @@ const portfolio = () => {
           );
         });
       },
-      { threshold: 0.35 }
+      { threshold: 0.5 }
     );
 
     imgs.forEach((img) => {
@@ -60,4 +60,4 @@ const portfolio = () => {
   );
 };
 
-export default portfolio;
+export default Portfolio;

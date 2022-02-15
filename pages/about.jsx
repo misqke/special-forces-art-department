@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import styles from "../styles/terms.module.scss";
 
-const about = () => {
+const About = () => {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>ABOUT</h1>
@@ -65,4 +65,4 @@ const about = () => {
   );
 };
 
-export default about;
+export default About;

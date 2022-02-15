@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../styles/terms.module.scss";
 
-const terms = () => {
+const Terms = () => {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>TERMS OF SERVICE</h1>
@@ -125,4 +125,4 @@ const terms = () => {
   );
 };
 
-export default terms;
+export default Terms;

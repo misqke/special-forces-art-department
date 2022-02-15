@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../styles/terms.module.scss";
 
-const why = () => {
+const Why = () => {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>WHY USE A GRAPHIC DESIGNER?</h1>
@@ -65,4 +65,4 @@ const why = () => {
   );
 };
 
-export default why;
+export default Why;

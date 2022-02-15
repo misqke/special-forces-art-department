@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../styles/terms.module.scss";
 
-const ordering = () => {
+const Ordering = () => {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>ORDERING SERVICES</h1>
@@ -83,4 +83,4 @@ const ordering = () => {
   );
 };
 
-export default ordering;
+export default Ordering;

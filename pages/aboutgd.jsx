@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../styles/terms.module.scss";
 
-const aboutgd = () => {
+const Aboutgd = () => {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>ABOUT GRAPHIC DESIGN</h1>
@@ -50,4 +50,4 @@ const aboutgd = () => {
   );
 };
 
-export default aboutgd;
+export default Aboutgd;

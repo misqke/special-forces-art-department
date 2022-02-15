@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../styles/terms.module.scss";
 
-const privacy = () => {
+const Privacy = () => {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>Privacy Policy</h1>
@@ -64,4 +64,4 @@ const privacy = () => {
   );
 };
 
-export default privacy;
+export default Privacy;
