@@ -2,6 +2,7 @@
   @include flexContainer(column);
   width: 100%;
   margin-top: 100px;
+  overflow-x: hidden;
 }
 .title {
   @include title();
@@ -11,22 +12,22 @@
   @include flexContainer(row);
   justify-content: space-between;
   width: 80%;
-  height: calc(100vh - 100px);
   padding: 2rem;
 }
 
 .wrapper {
   div {
-    transition-duration: 1.25s;
+    transition-duration: 0.75s;
     transition-timing-function: ease-out;
+    opacity: 0;
   }
   div:first-child {
     position: relative;
-    left: -100vw;
+    left: -25%;
   }
   div:last-child {
     position: relative;
-    right: -100vw;
+    right: -25%;
   }
 }
 
@@ -35,6 +36,9 @@
 }
 
 .visible {
+  div {
+    opacity: 1;
+  }
   div:first-child {
     position: relative;
     left: 0;

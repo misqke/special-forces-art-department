@@ -23,7 +23,6 @@ const Portfolio = () => {
 
   useEffect(() => {
     const imgs = document.querySelectorAll(`#portfolio_wrapper > div`);
-    console.log(imgs);
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
